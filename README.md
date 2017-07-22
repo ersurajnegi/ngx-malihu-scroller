@@ -20,7 +20,7 @@ Custom wrapper for malihu custom srcoller for Angular.
 
 ### With angular-cli:
 
-Update the  `styles` and `Scripts` arrays in `angular-cli.json`:
+1. Update the  `styles` and `Scripts` arrays in `angular-cli.json`:
 ```
   "styles": [
         "../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css",
@@ -32,7 +32,25 @@ Update the  `styles` and `Scripts` arrays in `angular-cli.json`:
     "../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"
   ]
 ```
+2. Import `MalihuCustomScrollerModule` into your `Angular Module` : 
 
+```
+  import { MalihuCustomScrollerModule } from 'ngx-malihu-scroller';
+```
+3. Add `MalihuCustomScrollerModule' to 'imports' array :
+
+```
+imports: [
+    MalihuCustomScrollerModule
+  ],
+```
+4. Then Use directive `malihuCustomScroller` to the DOM element where you nedd the scroller :
+
+```
+  <div  malihuCustomScroller >
+  
+</div>
+```
 
 ## Contributors
 
