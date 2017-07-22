@@ -1,37 +1,50 @@
 ﻿# ngx-malihu-scroller
 
-Custom wrapper for malihu custom srcoller for Angular(version > 2)
+Custom wrapper for malihu custom srcoller for Angular.
 
 ## Getting Started
 
 
-### Prerequisites
+### Dependencies
 
-
+1. Jquery
+  `npm i jquery --save`
+  
+2. Malihu Custom Scroller
+ `npm i malihu-custom-scrollbar-plugin --save`
 
 ### Installing
+`npm i ngx-malihu-scroller`
+
+## Usage:
+1.
+### With angular-cli:
+
+Update the  `styles` and `Scripts` arrays in `angular-cli.json`:
+```
+  "styles": [
+        "../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css",
+        "styles.css"
+      ],
+  "scripts": [
+    "../node_modules/jquery/dist/jquery.min.js",
+    "../node_modules/jquery-mousewheel/jquery.mousewheel.js",
+    "../node_modules/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"
+  ]
+```
 
 
-## Deployment
+## Contributors
 
-Add additional notes about how to deploy this on a live system
+* [Suraj Negi](https://github.com/ersurajnegi)
 
-## Built With
-
-
-
-## Contributing
-
-
-
-## Versioning
+## Repository
+* [Suraj Negi](https://github.com/ersurajnegi/ngx-malihu-scroller)
 
 
 ## Authors
 
-* **Suraj Negi**  - [Github](https://github.com/ersurajnegi)
-
-github Repository [Repository](https://github.com/ersurajnegi/ngx-malihu-scroller).
+* [Suraj Negi](https://github.com/ersurajnegi)
 
 
 
