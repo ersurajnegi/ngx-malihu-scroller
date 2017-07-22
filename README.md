@@ -17,7 +17,7 @@ Custom wrapper for malihu custom srcoller for Angular.
 `npm i ngx-malihu-scroller`
 
 ## Usage:
-1.
+
 ### With angular-cli:
 
 Update the  `styles` and `Scripts` arrays in `angular-cli.json`:
@@ -39,7 +39,7 @@ Update the  `styles` and `Scripts` arrays in `angular-cli.json`:
 * [Suraj Negi](https://github.com/ersurajnegi)
 
 ## Repository
-* [Suraj Negi](https://github.com/ersurajnegi/ngx-malihu-scroller)
+* [Ngx Malihu Scroller](https://github.com/ersurajnegi/ngx-malihu-scroller)
 
 
 ## Authors
