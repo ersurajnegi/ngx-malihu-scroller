@@ -9,5 +9,5 @@
       "declaration": true,
       "outDir": "./dist"
    },
-   "files": ["./lib/malihuCustomScroller.ts"]
+   "files": ["./lib/index.ts"]
 }
