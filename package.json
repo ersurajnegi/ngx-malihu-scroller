@@ -1,17 +1,16 @@
 {
   "name": "ngx-malihu-scroller",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Angular directive for custom scroller for angular web apps",
-  "main": "index.umd.js",
-  "jsnext:main": "index.esm.js",
-  "module": "index.esm.js",
+  "main": "MalihuCustomScrollerModule.umd.js",
+  "jsnext:main": "MalihuCustomScrollerModule.esm.js",
+  "module": "MalihuCustomScrollerModule.esm.js",
   "types": "index.d.ts",
   "scripts": {
-    "start": "rimraf dist && rollup -c rollup.config.umd.js && rollup -c rollup.config.esm.js",
-    "tsc": "tsc",
-    "after": "node tools/removecode.js && node tools/copy-package.js && node tools/cleanup.js",
-    "copy": "node tools/copy-package.js && node tools/cleanup.js",
-    "publish": "cd ./dist && npm publish"
+    "transpile": "ngc",
+    "package": "rollup -c",
+    "minify": "uglifyjs dist/MalihuCustomScrollerModule.umd.js --screw-ie8 --compress --mangle --comments --output dist/MalihuCustomScrollerModule.umd.min.js",
+    "build": "npm run transpile && npm run package && npm run minify"
   },
   "repository": {
     "type": "git",
@@ -24,14 +23,17 @@
   },
   "homepage": "https://github.com/ersurajnegi/ngx-malihu-scroller#readme",
   "dependencies": {
-    "@angular/core": "^4.2.6"
+    "@angular/core": "^4.3.1"
   },
   "devDependencies": {
+    "@angular/compiler": "^4.3.1",
+    "@angular/compiler-cli": "^4.3.1",
+    "@angular/core": "^4.3.1",
     "del": "^3.0.0",
-    "node-sass": "^4.5.3",
-    "rollup-plugin-angular": "^0.4.4",
-    "rollup-plugin-commonjs": "^8.0.2",
-    "rollup-plugin-node-resolve": "^3.0.0",
-    "rollup-plugin-typescript": "^0.8.1"
+    "rollup": "^0.45.2",
+    "rxjs": "^5.4.2",
+    "typescript": "^2.4.2",
+    "uglify-js": "^3.0.25",
+    "zone.js": "^0.8.14"
   }
 }

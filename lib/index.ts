@@ -1,3 +1,3 @@
-export * from './malihuCustomScroller.module';
+export { MalihuCustomScrollerModule } from './malihuCustomScroller.module';
 
-export * from './malihuCustomScroller.directive';
+export { MalihuCustomScrollerDirective } from './malihuCustomScroller.directive';
