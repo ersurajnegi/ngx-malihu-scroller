@@ -18,16 +18,37 @@
     "type": "git",
     "url": "git+https://github.com/ersurajnegi/ngx-malihu-scroller.git"
   },
-  "author": "Suraj Negi",
-  "license": "ISC",
+  "keywords": [
+    "angular",
+    "angular-2",
+    "angular-4",
+    "angular2",
+    "angular4",
+    "malihu-scrollbar",
+    "malihu-scroller",
+    "ng2 malihu",
+    "ng2",
+    "ng4",
+    "ngx",
+    "malihu",
+    "custom",
+    "scrollbar",
+    "scroller"
+  ],
+  "author": {
+    "name": "Suraj Negi",
+    "email": "er.surajnegi@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ersurajnegi/ngx-malihu-scroller/issues"
   },
   "homepage": "https://github.com/ersurajnegi/ngx-malihu-scroller#readme",
   "dependencies": {
-    "@angular/core": "^4.3.1"
+    "jquery": "^3.2.1",
+    "malihu-custom-scrollbar-plugin": "^3.1.5"
   },
-  "devDependencies": {
+  "devDependencies": {  
     "@angular/compiler": "^4.3.1",
     "@angular/compiler-cli": "^4.3.1",
     "@angular/core": "^4.3.1",
