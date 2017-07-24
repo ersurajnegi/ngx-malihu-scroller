@@ -52,6 +52,9 @@ imports: [
 </div>
 ```
 
+## Demo
+Please [click here](https://ersurajnegi.github.io/ngxMalihuScrollerDemo/) for Demo.
+
 ## Contributors
 
 * [Suraj Negi](https://github.com/ersurajnegi)
