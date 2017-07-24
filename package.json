@@ -1,6 +1,6 @@
 {
   "name": "ngx-malihu-scroller",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Angular directive for custom scroller for angular web apps",
   "main": "MalihuCustomScrollerModule.umd.js",
   "jsnext:main": "MalihuCustomScrollerModule.esm.js",
@@ -48,7 +48,7 @@
     "jquery": "^3.2.1",
     "malihu-custom-scrollbar-plugin": "^3.1.5"
   },
-  "devDependencies": {  
+  "devDependencies": {
     "@angular/compiler": "^4.3.1",
     "@angular/compiler-cli": "^4.3.1",
     "@angular/core": "^4.3.1",
