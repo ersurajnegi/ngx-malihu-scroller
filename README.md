@@ -63,12 +63,6 @@ Please [click here](https://ersurajnegi.github.io/ngxMalihuScrollerDemo/) for De
 * [Ngx Malihu Scroller](https://github.com/ersurajnegi/ngx-malihu-scroller)
 
 
-## Authors
-
-* [Suraj Negi](https://github.com/ersurajnegi)
-
-
-
 ## Acknowledgments
 
 * [Malihu](http://manos.malihu.gr/jquery-custom-content-scroller)
