@@ -39,10 +39,15 @@ Custom wrapper for malihu custom srcoller for Angular.
 ```
 imports: [    MalihuCustomScrollerModule  ]
 ```
-4. Then Use directive `malihuCustomScroller` to the DOM element where you nedd the scroller :
-
+4. Then Use directive `malihuCustomScroller` to the DOM element where you nedd the scroller:
+    a. with deafult options
 ```
-  <div  malihuCustomScroller > </div>
+  <div  malihuCustomScroller></div>
+```
+
+    b. Want to customise the scroller as per your need, pass the @Input parameter `scrollOptions` to the directive as below:
+```
+  <div  malihuCustomScroller [scrollOptions]="yourCustomObject"></div>
 ```
 
 ## Demo
