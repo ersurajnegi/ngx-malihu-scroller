@@ -8,10 +8,7 @@ Custom wrapper for malihu custom srcoller for Angular.
 ### Dependencies
 
 1. Jquery
-  `npm i jquery --save`
-  
 2. Malihu Custom Scroller
- `npm i malihu-custom-scrollbar-plugin --save`
 
 ### Installing
 `npm i ngx-malihu-scroller`
@@ -40,16 +37,12 @@ Custom wrapper for malihu custom srcoller for Angular.
 3. Add `MalihuCustomScrollerModule' to 'imports' array :
 
 ```
-imports: [
-    MalihuCustomScrollerModule
-  ],
+imports: [    MalihuCustomScrollerModule  ]
 ```
 4. Then Use directive `malihuCustomScroller` to the DOM element where you nedd the scroller :
 
 ```
-  <div  malihuCustomScroller >
-  
-</div>
+  <div  malihuCustomScroller > </div>
 ```
 
 ## Demo
