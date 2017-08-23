@@ -39,16 +39,20 @@ Custom wrapper for malihu custom srcoller for Angular.
 ```
 imports: [    MalihuCustomScrollerModule  ]
 ```
-4. Then Use directive `malihuCustomScroller` to the DOM element where you nedd the scroller:
-    a. with deafult options
-```
-  <div  malihuCustomScroller></div>
-```
+4. Then Use directive `malihuCustomScroller` to the DOM element where you need the scroller :
+  
+      a. With Default Options :
+      ```
+        <div  malihuCustomScroller></div>
+      ```
+      b. With your Custom Options :       
+      You need to pass `scrollOptions` as an `@Input` to the `malihuCustomScroller` as below :
+      ```
+        <div  malihuCustomScroller [scrollOptions]></div>
+      ```
 
-    b. Want to customise the scroller as per your need, pass the @Input parameter `scrollOptions` to the directive as below:
-```
-  <div  malihuCustomScroller [scrollOptions]="yourCustomObject"></div>
-```
+For full Customization options, [click here](http://manos.malihu.gr/jquery-custom-content-scroller/#get-started-section).
+
 
 ## Demo
 Please [click here](https://ersurajnegi.github.io/ngxMalihuScrollerDemo/) for Demo.
