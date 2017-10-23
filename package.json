@@ -1,6 +1,6 @@
 {
   "name": "ngx-malihu-scroller",
-  "version": "1.0.6",
+  "version": "1.0.11",
   "description": "Angular directive for custom scroller for angular web apps",
   "main": "MalihuCustomScrollerModule.umd.js",
   "jsnext:main": "MalihuCustomScrollerModule.esm.js",
@@ -12,7 +12,7 @@
     "minify": "uglifyjs dist/MalihuCustomScrollerModule.umd.js --screw-ie8 --compress --mangle --comments --output dist/MalihuCustomScrollerModule.umd.min.js",
     "copy": "node tools/copy-package.js",
     "build": "npm run transpile && npm run package && npm run minify && npm run copy",
-    "publish": "cd ./dist && npm publish"
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",

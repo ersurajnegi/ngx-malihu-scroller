@@ -1,4 +1,4 @@
-import { Directive, ElementRef, Renderer,EventEmitter , OnInit, AfterViewInit, Input, Output } from '@angular/core';
+import { Directive, ElementRef, Renderer, EventEmitter, OnInit, AfterViewInit, Input, Output } from '@angular/core';
 declare var $: any;
 @Directive({
   selector: '[malihuCustomScroller]'
@@ -25,6 +25,7 @@ export class MalihuCustomScrollerDirective implements OnInit, AfterViewInit {
     this.initCustomScroll();
   }
   generateOptions() {
+    this.scrollOptions ? '' : this.scrollOptions = {};
     this.scrollOptions.callbacks = this.getCallbackOptions();
   }
   getCallbackOptions() {
@@ -48,22 +49,22 @@ export class MalihuCustomScrollerDirective implements OnInit, AfterViewInit {
   onTotalScrollCallback() {
     this.onTotalScroll.emit();
   }
-  onCreateCallback(){
+  onCreateCallback() {
     this.onCreate.emit();
   }
-  onInitCallback(){
+  onInitCallback() {
     this.onInit.emit();
   }
-  onScrollStartCallback(){
+  onScrollStartCallback() {
     this.onScrollStart.emit();
   }
-  onScrollCallback(){
+  onScrollCallback() {
     this.onScroll.emit();
   }
-  whileScrollingCallback(){
+  whileScrollingCallback() {
     this.whileScrolling.emit();
   }
-  onTotalScrollBackCallback(){
+  onTotalScrollBackCallback() {
     this.onTotalScrollBack.emit();
   }
   ngOnDestroy() {
