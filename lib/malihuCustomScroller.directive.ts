@@ -46,6 +46,9 @@ export class MalihuCustomScrollerDirective implements OnInit, AfterViewInit {
   destroyCustomScroll() {
     this._renderer.invokeElementMethod(this.element, 'mCustomScrollbar', ['destroy']);
   }
+  refreshScroll() {
+    this._renderer.invokeElementMethod(this.element, 'mCustomScrollbar', ['update']);
+  }
   onTotalScrollCallback() {
     this.onTotalScroll.emit();
   }
