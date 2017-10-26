@@ -67,7 +67,4 @@ export class MalihuCustomScrollerDirective implements OnInit, AfterViewInit {
   onTotalScrollBackCallback() {
     this.onTotalScrollBack.emit();
   }
-  ngOnDestroy() {
-    this.destroyCustomScroll();
-  }
 }
